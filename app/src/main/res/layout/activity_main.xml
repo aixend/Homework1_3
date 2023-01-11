@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/email_address"
+        style="@style/edit_text"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_mail"
+        android:hint="@string/email"
+        />
+    <EditText
+        android:id="@+id/email_theme"
+        style="@style/edit_text"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_notes"
+        android:hint="@string/theme"
+        />
+    <EditText
+        android:id="@+id/email_text"
+        style="@style/edit_text"
+        android:layout_marginTop="10dp"
+    android:drawableStart="@drawable/ic_sms"
+        android:hint="@string/sms"
+        />
+    <Button
+        android:id="@+id/email_send_button"
+        android:layout_width="350dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="@string/send"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+</LinearLayout>
